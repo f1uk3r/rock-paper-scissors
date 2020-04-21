@@ -1,0 +1,17 @@
+.score-container {
+    display: flex;
+    margin-left: 2em;
+    width: 55%;
+}
+.score-container>.player-score, .score-container>.computer-score {
+    flex-grow: 1;
+}
+
+.button-container {
+    margin-left: 2em;
+    display: flex;
+    width: 55%;
+}
+.button-container>.rock-button, .button-container>.paper-button, .button-container>.scissor-button {
+    flex-grow: 1;
+}
